@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact name="Generator_pro:jar">
+    <output-path>$PROJECT_DIR$/bin</output-path>
+    <root id="root">
+      <element id="archive" name="Generator_pro.jar">
+        <element id="module-output" name="Generator_pro" />
+      </element>
+      <element id="library" level="project" name="freemarker" />
+    </root>
+  </artifact>
+</component>

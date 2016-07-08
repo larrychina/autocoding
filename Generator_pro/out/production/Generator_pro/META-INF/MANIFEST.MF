@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Class-Path: freemarker.jar log4j-1.2.17.jar mysql-connector-java-5.1.7
+ -bin.jar org.apache.commons.lang.jar
+Main-Class: org.yangpeng.autocoding.gen.GenWindow
+

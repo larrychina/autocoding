@@ -1,0 +1,573 @@
+ERROR 2016-06-30 12:00 freemarker.runtime>>Error executing FreeMarker template (_Log4JLoggerFactory.java:60) 
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> column  [in template "${className}BeanMapper.xml" at line 14, column 49]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${"#{id,jdbcType=" + column.dbType}  [in template "${className}BeanMapper.xml" at line 14, column 28]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:108)
+	at freemarker.core.UnexpectedTypeException.newDesciptionBuilder(UnexpectedTypeException.java:60)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:40)
+	at freemarker.core.NonHashException.<init>(NonHashException.java:46)
+	at freemarker.core.Dot._eval(Dot.java:45)
+	at freemarker.core.Expression.eval(Expression.java:76)
+	at freemarker.core.AddConcatExpression._eval(AddConcatExpression.java:55)
+	at freemarker.core.Expression.eval(Expression.java:76)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:80)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:40)
+	at freemarker.core.Environment.visit(Environment.java:257)
+	at freemarker.core.MixedContent.accept(MixedContent.java:57)
+	at freemarker.core.Environment.visit(Environment.java:257)
+	at freemarker.core.Environment.process(Environment.java:235)
+	at freemarker.template.Template.process(Template.java:262)
+	at org.yangpeng.autocoding.gen.Generator.gen(Generator.java:188)
+	at org.yangpeng.autocoding.gen.GenWindow.gen(GenWindow.java:190)
+	at org.yangpeng.autocoding.gen.GenWindow.actionPerformed(GenWindow.java:118)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6505)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3320)
+	at java.awt.Component.processEvent(Component.java:6270)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4861)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:735)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:708)
+	at java.awt.EventQueue$4.run(EventQueue.java:706)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:705)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+ERROR 2016-06-30 12:03 freemarker.runtime>>Error executing FreeMarker template (_Log4JLoggerFactory.java:60) 
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> column  [in template "${className}BeanMapper.xml" at line 14, column 49]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${"#{id,jdbcType=" + column.dbType}  [in template "${className}BeanMapper.xml" at line 14, column 28]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:108)
+	at freemarker.core.UnexpectedTypeException.newDesciptionBuilder(UnexpectedTypeException.java:60)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:40)
+	at freemarker.core.NonHashException.<init>(NonHashException.java:46)
+	at freemarker.core.Dot._eval(Dot.java:45)
+	at freemarker.core.Expression.eval(Expression.java:76)
+	at freemarker.core.AddConcatExpression._eval(AddConcatExpression.java:55)
+	at freemarker.core.Expression.eval(Expression.java:76)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:80)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:40)
+	at freemarker.core.Environment.visit(Environment.java:257)
+	at freemarker.core.MixedContent.accept(MixedContent.java:57)
+	at freemarker.core.Environment.visit(Environment.java:257)
+	at freemarker.core.Environment.process(Environment.java:235)
+	at freemarker.template.Template.process(Template.java:262)
+	at org.yangpeng.autocoding.gen.Generator.gen(Generator.java:188)
+	at org.yangpeng.autocoding.gen.GenWindow.gen(GenWindow.java:190)
+	at org.yangpeng.autocoding.gen.GenWindow.actionPerformed(GenWindow.java:118)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6505)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3320)
+	at java.awt.Component.processEvent(Component.java:6270)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4861)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:735)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:708)
+	at java.awt.EventQueue$4.run(EventQueue.java:706)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:705)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+ERROR 2016-06-30 12:04 freemarker.runtime>>Error executing FreeMarker template (_Log4JLoggerFactory.java:60) 
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> column  [in template "${className}BeanMapper.xml" at line 14, column 49]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${"#{id,jdbcType=" + column.dbType}  [in template "${className}BeanMapper.xml" at line 14, column 28]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:108)
+	at freemarker.core.UnexpectedTypeException.newDesciptionBuilder(UnexpectedTypeException.java:60)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:40)
+	at freemarker.core.NonHashException.<init>(NonHashException.java:46)
+	at freemarker.core.Dot._eval(Dot.java:45)
+	at freemarker.core.Expression.eval(Expression.java:76)
+	at freemarker.core.AddConcatExpression._eval(AddConcatExpression.java:55)
+	at freemarker.core.Expression.eval(Expression.java:76)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:80)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:40)
+	at freemarker.core.Environment.visit(Environment.java:257)
+	at freemarker.core.MixedContent.accept(MixedContent.java:57)
+	at freemarker.core.Environment.visit(Environment.java:257)
+	at freemarker.core.Environment.process(Environment.java:235)
+	at freemarker.template.Template.process(Template.java:262)
+	at org.yangpeng.autocoding.gen.Generator.gen(Generator.java:188)
+	at org.yangpeng.autocoding.gen.GenWindow.gen(GenWindow.java:190)
+	at org.yangpeng.autocoding.gen.GenWindow.actionPerformed(GenWindow.java:118)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6505)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3320)
+	at java.awt.Component.processEvent(Component.java:6270)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4861)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:735)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:708)
+	at java.awt.EventQueue$4.run(EventQueue.java:706)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:705)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+ERROR 2016-06-30 12:38 freemarker.runtime>>Error executing FreeMarker template (_Log4JLoggerFactory.java:60) 
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> column  [in template "${className}BeanMapper.xml" at line 14, column 51]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${"#{id,jdbcType=" + column.dbType}  [in template "${className}BeanMapper.xml" at line 14, column 28]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:108)
+	at freemarker.core.UnexpectedTypeException.newDesciptionBuilder(UnexpectedTypeException.java:60)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:40)
+	at freemarker.core.NonHashException.<init>(NonHashException.java:46)
+	at freemarker.core.Dot._eval(Dot.java:45)
+	at freemarker.core.Expression.eval(Expression.java:76)
+	at freemarker.core.AddConcatExpression._eval(AddConcatExpression.java:55)
+	at freemarker.core.Expression.eval(Expression.java:76)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:80)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:40)
+	at freemarker.core.Environment.visit(Environment.java:257)
+	at freemarker.core.MixedContent.accept(MixedContent.java:57)
+	at freemarker.core.Environment.visit(Environment.java:257)
+	at freemarker.core.Environment.process(Environment.java:235)
+	at freemarker.template.Template.process(Template.java:262)
+	at org.yangpeng.autocoding.gen.Generator.gen(Generator.java:188)
+	at org.yangpeng.autocoding.gen.GenWindow.gen(GenWindow.java:190)
+	at org.yangpeng.autocoding.gen.GenWindow.actionPerformed(GenWindow.java:118)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6505)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3320)
+	at java.awt.Component.processEvent(Component.java:6270)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4861)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:735)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:708)
+	at java.awt.EventQueue$4.run(EventQueue.java:706)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:705)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+ERROR 2016-06-30 12:50 freemarker.runtime>>Error executing FreeMarker template (_Log4JLoggerFactory.java:60) 
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> column  [in template "${className}BeanMapper.xml" at line 14, column 50]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${column.dbType}  [in template "${className}BeanMapper.xml" at line 14, column 48]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:108)
+	at freemarker.core.UnexpectedTypeException.newDesciptionBuilder(UnexpectedTypeException.java:60)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:40)
+	at freemarker.core.NonHashException.<init>(NonHashException.java:46)
+	at freemarker.core.Dot._eval(Dot.java:45)
+	at freemarker.core.Expression.eval(Expression.java:76)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:80)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:40)
+	at freemarker.core.Environment.visit(Environment.java:257)
+	at freemarker.core.MixedContent.accept(MixedContent.java:57)
+	at freemarker.core.Environment.visit(Environment.java:257)
+	at freemarker.core.Environment.process(Environment.java:235)
+	at freemarker.template.Template.process(Template.java:262)
+	at org.yangpeng.autocoding.gen.Generator.gen(Generator.java:188)
+	at org.yangpeng.autocoding.gen.GenWindow.gen(GenWindow.java:190)
+	at org.yangpeng.autocoding.gen.GenWindow.actionPerformed(GenWindow.java:118)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6505)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3320)
+	at java.awt.Component.processEvent(Component.java:6270)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4861)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:735)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:708)
+	at java.awt.EventQueue$4.run(EventQueue.java:706)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:705)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+ERROR 2016-06-30 12:53 freemarker.runtime>>Error executing FreeMarker template (_Log4JLoggerFactory.java:60) 
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> column  [in template "${className}BeanMapper.xml" at line 14, column 51]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${column.dbType}  [in template "${className}BeanMapper.xml" at line 14, column 49]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:108)
+	at freemarker.core.UnexpectedTypeException.newDesciptionBuilder(UnexpectedTypeException.java:60)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:40)
+	at freemarker.core.NonHashException.<init>(NonHashException.java:46)
+	at freemarker.core.Dot._eval(Dot.java:45)
+	at freemarker.core.Expression.eval(Expression.java:76)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:80)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:40)
+	at freemarker.core.Environment.visit(Environment.java:257)
+	at freemarker.core.MixedContent.accept(MixedContent.java:57)
+	at freemarker.core.Environment.visit(Environment.java:257)
+	at freemarker.core.Environment.process(Environment.java:235)
+	at freemarker.template.Template.process(Template.java:262)
+	at org.yangpeng.autocoding.gen.Generator.gen(Generator.java:188)
+	at org.yangpeng.autocoding.gen.GenWindow.gen(GenWindow.java:190)
+	at org.yangpeng.autocoding.gen.GenWindow.actionPerformed(GenWindow.java:118)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6505)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3320)
+	at java.awt.Component.processEvent(Component.java:6270)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4861)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:735)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:708)
+	at java.awt.EventQueue$4.run(EventQueue.java:706)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:705)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+ERROR 2016-06-30 12:55 freemarker.runtime>>Error executing FreeMarker template (_Log4JLoggerFactory.java:60) 
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> column  [in template "${className}BeanMapper.xml" at line 14, column 50]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${column.dbType}  [in template "${className}BeanMapper.xml" at line 14, column 48]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:108)
+	at freemarker.core.UnexpectedTypeException.newDesciptionBuilder(UnexpectedTypeException.java:60)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:40)
+	at freemarker.core.NonHashException.<init>(NonHashException.java:46)
+	at freemarker.core.Dot._eval(Dot.java:45)
+	at freemarker.core.Expression.eval(Expression.java:76)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:80)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:40)
+	at freemarker.core.Environment.visit(Environment.java:257)
+	at freemarker.core.MixedContent.accept(MixedContent.java:57)
+	at freemarker.core.Environment.visit(Environment.java:257)
+	at freemarker.core.Environment.process(Environment.java:235)
+	at freemarker.template.Template.process(Template.java:262)
+	at org.yangpeng.autocoding.gen.Generator.gen(Generator.java:188)
+	at org.yangpeng.autocoding.gen.GenWindow.gen(GenWindow.java:190)
+	at org.yangpeng.autocoding.gen.GenWindow.actionPerformed(GenWindow.java:118)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6505)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3320)
+	at java.awt.Component.processEvent(Component.java:6270)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4861)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:735)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:708)
+	at java.awt.EventQueue$4.run(EventQueue.java:706)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:705)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+ERROR 2016-06-30 12:57 freemarker.runtime>>Error executing FreeMarker template (_Log4JLoggerFactory.java:60) 
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> column  [in template "${className}BeanMapper.xml" at line 14, column 50]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${"#{id,jdbcType=" + column.dbType + ...  [in template "${className}BeanMapper.xml" at line 14, column 28]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:108)
+	at freemarker.core.UnexpectedTypeException.newDesciptionBuilder(UnexpectedTypeException.java:60)
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:40)
+	at freemarker.core.NonHashException.<init>(NonHashException.java:46)
+	at freemarker.core.Dot._eval(Dot.java:45)
+	at freemarker.core.Expression.eval(Expression.java:76)
+	at freemarker.core.AddConcatExpression._eval(AddConcatExpression.java:55)
+	at freemarker.core.Expression.eval(Expression.java:76)
+	at freemarker.core.AddConcatExpression._eval(AddConcatExpression.java:54)
+	at freemarker.core.Expression.eval(Expression.java:76)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:80)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:40)
+	at freemarker.core.Environment.visit(Environment.java:257)
+	at freemarker.core.MixedContent.accept(MixedContent.java:57)
+	at freemarker.core.Environment.visit(Environment.java:257)
+	at freemarker.core.Environment.process(Environment.java:235)
+	at freemarker.template.Template.process(Template.java:262)
+	at org.yangpeng.autocoding.gen.Generator.gen(Generator.java:188)
+	at org.yangpeng.autocoding.gen.GenWindow.gen(GenWindow.java:190)
+	at org.yangpeng.autocoding.gen.GenWindow.actionPerformed(GenWindow.java:118)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6505)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3320)
+	at java.awt.Component.processEvent(Component.java:6270)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4861)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:735)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:708)
+	at java.awt.EventQueue$4.run(EventQueue.java:706)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:705)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+INFO  2016-06-30 15:20 org.yangpeng.autocoding.gen.GenWindow>>Communications link failure
+
+Last packet sent to the server was 0 ms ago. (GenWindow.java:222) 
+INFO  2016-06-30 15:21 org.yangpeng.autocoding.gen.GenWindow>>Communications link failure
+
+Last packet sent to the server was 0 ms ago. (GenWindow.java:223) 
+INFO  2016-06-30 15:22 org.yangpeng.autocoding.gen.GenWindow>>Communications link failure
+
+Last packet sent to the server was 0 ms ago. (GenWindow.java:221) 
